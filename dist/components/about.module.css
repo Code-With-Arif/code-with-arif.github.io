@@ -1,0 +1,91 @@
+._container_55rel_1 {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+._container_55rel_1 ._content_55rel_7 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0 20px;
+}
+._container_55rel_1 ._content_55rel_7 ._left_55rel_13 {
+  width: 50%;
+  padding-top: 4rem;
+}
+@media screen and (max-width: 900px) {
+  ._container_55rel_1 ._content_55rel_7 ._left_55rel_13 {
+    width: 100%;
+  }
+}
+._container_55rel_1 ._content_55rel_7 ._left_55rel_13 h1 {
+  color: rgb(63, 255, 159);
+  font-size: clamp(25px, 4vw, 45px);
+  font-weight: 400;
+  font-family: "Acme", sans-serif;
+}
+._container_55rel_1 ._content_55rel_7 ._left_55rel_13 p {
+  font-size: clamp(15px, 2vw, 20px);
+  font-family: "Patrick Hand", cursive;
+}
+._container_55rel_1 ._content_55rel_7 ._right_55rel_32 {
+  width: 50%;
+  overflow: hidden;
+  flex: 1 1 auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 900px) {
+  ._container_55rel_1 ._content_55rel_7 ._right_55rel_32 {
+    position: static;
+    width: 100%;
+  }
+}
+._container_55rel_1 ._content_55rel_7 ._right_55rel_32 ._chartContainer_55rel_47 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+._container_55rel_1 ._content_55rel_7 ._right_55rel_32 ._chartContainer_55rel_47 ._chart_55rel_47 {
+  width: 100%;
+  margin: 20px 0;
+}
+._container_55rel_1 ._content_55rel_7 ._right_55rel_32 ._chartContainer_55rel_47 ._chart_55rel_47 ._bar_55rel_58 {
+  width: 100%;
+  padding: 5px 4rem;
+}
+._container_55rel_1 ._content_55rel_7 ._right_55rel_32 ._chartContainer_55rel_47 ._chart_55rel_47 ._bar_55rel_58 p {
+  font-size: clamp(15px, 2vw, 20px);
+  font-family: "Patrick Hand", cursive;
+}
+._container_55rel_1 ._content_55rel_7 ._right_55rel_32 ._chartContainer_55rel_47 ._chart_55rel_47 ._bar_55rel_58 ._progress_55rel_66 {
+  width: 100%;
+  height: 2px;
+  margin-top: 5px;
+  position: relative;
+  background-color: rgb(65, 65, 65);
+}
+._container_55rel_1 ._content_55rel_7 ._right_55rel_32 ._chartContainer_55rel_47 ._chart_55rel_47 ._bar_55rel_58 ._progress_55rel_66 span {
+  content: "";
+  height: 100%;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+._container_55rel_1 ._content_55rel_7 ._right_55rel_32 ._chartContainer_55rel_47 ._chart_55rel_47 ._bar_55rel_58 ._progress_55rel_66 span._show_55rel_81 {
+  animation: _animate_55rel_1 2s forwards 0.5s;
+}
+@keyframes _animate_55rel_1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: var(--width);
+  }
+}
