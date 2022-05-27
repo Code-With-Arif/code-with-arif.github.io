@@ -1,0 +1,34 @@
+._container_jzjod_1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 15px;
+}
+._container_jzjod_1 ._main_jzjod_10 {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+._container_jzjod_1 ._main_jzjod_10 video {
+  width: 100%;
+  height: 100%;
+  cursor: auto;
+}
+._container_jzjod_1 ._main_jzjod_10 img {
+  width: 100%;
+  height: 100%;
+}
+._container_jzjod_1 ._bottom_jzjod_26 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 15px;
+}
