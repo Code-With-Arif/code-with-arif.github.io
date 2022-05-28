@@ -1,5 +1,5 @@
 import React, {Component} from "../../../snowpack/pkg/react.js";
-import style from "./mobile.module.css.proxy.js";
+import style from "./mobile.module.css";
 import PausedSvg from "../../assets/svg/cursor-pause.js";
 import PlaySvg from "../../assets/svg/cursor-play.js";
 import ArrowBackSvg from "../../assets/svg/arrow_back.js";

@@ -1,9 +1,0 @@
-{
-  "imports": {
-    "@emailjs/browser": "./@emailjs/browser.js",
-    "react": "./react.js",
-    "react-dom": "./react-dom.js",
-    "react-scroll-parallax": "./react-scroll-parallax.js",
-    "scriptjs": "./scriptjs.js"
-  }
-}
