@@ -8141,7 +8141,7 @@ var Home = class extends Component {
       id: "home"
     }, /* @__PURE__ */ react.createElement("div", {
       className: _default3.content
-    }, /* @__PURE__ */ react.createElement("h2", null, "Hi! I'm-"), /* @__PURE__ */ react.createElement("h1", null, "Arif Sardar ", /* @__PURE__ */ react.createElement("span", null, "(CodeWithArif),")), /* @__PURE__ */ react.createElement("h2", null, "A Software Developer for the Web."), /* @__PURE__ */ react.createElement("p", null, "I'm a Software Enginere (more specifically a Web Developer). I used to build expencive user interfaces with extreme user experiences. Beside that, I also teach people(mainly beginners) to code from scratch through online platforms.")));
+    }, /* @__PURE__ */ react.createElement("h2", null, "Hi! I'm-"), /* @__PURE__ */ react.createElement("h1", null, "Arif Sardar ", /* @__PURE__ */ react.createElement("span", null, "(CodeWithArif),")), /* @__PURE__ */ react.createElement("h2", null, "A Software Developer for the Web."), /* @__PURE__ */ react.createElement("p", null, "I'm a Software Developer (more specifically a Web Developer). I used to build expencive user interfaces with extreme user experiences. Beside that, I also teach people(mainly beginners) to code from scratch through online platforms.")));
   }
 };
 var home_default = Home;
